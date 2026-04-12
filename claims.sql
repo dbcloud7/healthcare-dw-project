@@ -5,3 +5,7 @@ CREATE TABLE claims (
     member_id INT,
     amount DECIMAL(10,2)
 );
+
+
+-- Added new column
+ALTER TABLE claims ADD claim_type VARCHAR(50);
