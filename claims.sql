@@ -9,3 +9,5 @@ CREATE TABLE claims (
 
 -- Added new column
 ALTER TABLE claims ADD claim_type VARCHAR(50);
+
+drop table test2;
